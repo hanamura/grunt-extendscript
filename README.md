@@ -55,11 +55,13 @@ Arguments passed to script.
 var path = require('path');
 grunt.initConfig({
   extendscript: {
-    options: {
-      app: 'Adobe Photoshop CS6',
-      args: [path.resolve('img')]
-    },
-    src: ['resize.jsx', 'sharpen.jsx'],
+    resize_and_sharpen: {
+      options: {
+        app: 'Adobe Photoshop CS6',
+        args: [path.resolve('img')]
+      },
+      src: ['resize.jsx', 'sharpen.jsx']
+    }
   },
 })
 ```
