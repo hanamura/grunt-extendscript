@@ -1,3 +1,7 @@
+# THIS REPOSITORY IS NO LONGER MAINTAINED.
+
+[@hanamura](https://github.com/hanamura) no longer maintains this repository.
+
 # grunt-extendscript
 
 > Execute ExtendScript (.jsx) files.
